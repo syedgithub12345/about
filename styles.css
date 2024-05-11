@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 5px 0;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.section-title {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.objective p,
+.projects ul,
+.certifications ul,
+.responsibilities ul,
+.achievements ul {
+    margin-top: 0;
+}
+
+.projects ul,
+.certifications ul,
+.responsibilities ul,
+.achievements ul {
+    padding-left: 20px;
+}
+
+.projects ul li,
+.certifications ul li,
+.responsibilities ul li,
+.achievements ul li {
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.skills li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.centered-link {
+    display: block;
+    text-align: center;
+}
