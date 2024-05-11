@@ -16,6 +16,7 @@
 
 8. Paste the code in the .yml file
 ***********************************************************
+***********************************************************
 name: Push-to-EC2
 
 # Trigger deployment only on push to main branch
